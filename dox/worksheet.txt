@@ -1,0 +1,26 @@
+#####
+# Simple scatch paper for my thoughts
+#####
+
+Pesonality:
+    Need for Stability
+        Resilient
+        Responsive
+        Reactive
+    Extraversion
+        Introvert
+        Ambivert
+        Extravert
+    Originality
+        Preserver
+        Moderate
+        Explorer
+    Accommodation
+        Challenger
+        Negotiator
+        Adapter
+    Consolidation
+        Flexible
+        Balanced
+        Focused
+
