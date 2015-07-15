@@ -3,11 +3,11 @@
 #####
 
 Pesonality:
-    Need for Stability
+    Neuroticism
         Resilient
         Responsive
         Reactive
-    Extraversion
+    Sociability
         Introvert
         Ambivert
         Extravert
