@@ -1,4 +1,4 @@
-# monstergame
+# *Monster Raising Game to be named later*
 
 ## Concept
 This game is going to be similar in concept to the Dragon Warrior/Quest
