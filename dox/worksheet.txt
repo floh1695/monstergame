@@ -3,24 +3,24 @@
 #####
 
 Pesonality:
-    Neuroticism
-        Resilient
-        Responsive
-        Reactive
-    Sociability
-        Introvert
-        Ambivert
-        Extravert
-    Originality
-        Preserver
-        Moderate
-        Explorer
-    Accommodation
-        Challenger
-        Negotiator
-        Adapter
-    Consolidation
-        Flexible
-        Balanced
-        Focused
+    Neuroticism    N
+        Reactive       +
+        Responsive     =
+        Resilient      -
+    Sociability    E
+        Extravert      +
+        Ambivert       =
+        Introvert      -
+    Originality    O
+        Explorer       +
+        Moderate       =
+        Preserver      -
+    Accommodation  A
+        Adapter        +
+        Negotiator     =
+        Challenger     -
+    Consolidation  C
+        Focused        +
+        Balanced       =
+        Flexible       -
 

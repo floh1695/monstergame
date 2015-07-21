@@ -7,6 +7,18 @@ _name_change = 100
 def _random_personality():
     return gauss(0, _name_change * 1.5)
 
+def _score_name_picker(score, names):
+    if score >= _name_change:
+        return names[0]
+    elif score <= -_name_change:
+        return names[2]
+    else:
+        return names[1]
+
+class PersonalitySegment:
+    def __init__(self):
+        pass
+
 class Personality(object):
     def __init__(self,
             score_n = _random_personality(),
@@ -20,63 +32,33 @@ class Personality(object):
         self.score_a = score_a # Accomidation       / Aggreableness
         self.score_c = score_c # Consolidation      / Conscientiousness
 
-    def score_n_name(self):
-        name = ''
-        if self.score_n >= _name_change:
-            name = 'high N'
-        elif self.score_n <= -_name_change:
-            name = 'low N'
-        else:
-            name = 'modest N'
-        return name
+    def score_n_data(self):
+        return _score_name_picker(self.score_n,
+                ('Reactive', 'Responsive', 'Resilient'))
 
-    def score_e_name(self):
-        name = ''
-        if self.score_e >= _name_change:
-            name = 'high E'
-        elif self.score_e <= -_name_change:
-            name = 'low E'
-        else:
-            name = 'modest E'
-        return name
+    def score_e_data(self):
+        return _score_name_picker(self.score_c,
+                ('Extravert', 'Ambivert', 'Introvert'))
 
-    def score_o_name(self):
-        name = ''
-        if self.score_o >= _name_change:
-            name = 'high O'
-        elif self.score_o <= -_name_change:
-            name = 'low O'
-        else:
-            name = 'modest O'
-        return name
+    def score_o_data(self):
+        return _score_name_picker(self.score_o,
+                ('Explorer', 'Moderate', 'Preserver'))
 
-    def score_a_name(self):
-        name = ''
-        if self.score_a >= _name_change:
-            name = 'high A'
-        elif self.score_a <= -_name_change:
-            name = 'low A'
-        else:
-            name = 'modest A'
-        return name
+    def score_a_data(self):
+        return _score_name_picker(self.score_a,
+                ('Adapter', 'Negotiator', 'Challenger'))
 
-    def score_c_name(self):
-        name = ''
-        if self.score_c >= _name_change:
-            name = 'high C'
-        elif self.score_c <= -_name_change:
-            name = 'low C'
-        else:
-            name = 'modest C'
-        return name
+    def score_c_data(self):
+        return _score_name_picker(self.score_c,
+                ('Focused', 'Balanced', 'Flexible'))
 
     def __str__(self):
         return str((
-                self.score_n_name(),
-                self.score_e_name(),
-                self.score_o_name(),
-                self.score_a_name(),
-                self.score_c_name()))
+                self.score_n_data(),
+                self.score_e_data(),
+                self.score_o_data(),
+                self.score_a_data(),
+                self.score_c_data()))
 
 if __name__ == '__main__':
     print('Unit test for ./personality.py')
