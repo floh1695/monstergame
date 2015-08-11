@@ -42,3 +42,5 @@ a key for the gate.
 ## Verbs
 *Currently undecided*
 
+# *__Final Note__*
+Everything here is subject to change.
