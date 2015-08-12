@@ -34,7 +34,9 @@ a major force in ending this war that has gone on for so long.
 
 ## Core (features)
 -Robust monster breeding
+
 -Deep, turn based combat
+
 -High monster variety
 
 ## Mechanics
