@@ -33,9 +33,9 @@ your journey you discover many monsters, become better as a tamer, and ultimatle
 a major force in ending this war that has gone on for so long.
 
 ## Core (features)
-Robust monster breeding
-Deep, turn based combat
-High monster variety
+-Robust monster breeding
+-Deep, turn based combat
+-High monster variety
 
 ## Mechanics
 *Currently undecided*
