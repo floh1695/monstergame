@@ -1,0 +1,81 @@
+Monster Stats
+-Physical Bonus
+-Physical Blunt
+-Physical Slash
+-Physical Pierce
+-Blunt Defense
+-Slash Defense
+-Pierce Defense
+-Physical Defense
+-Fire Bonus
+-Fire Defense
+-Electric Bonus
+-Electric Defense
+-Ice Bonus
+-Ice Defense
+-Corrosive Bonus
+-Corrosive Defense
+-Energy Bonus
+-Energy Defense
+-Magic Bonus
+-Magic Defense
+-Poison Bonus (status)
+-Poison Resist (status)
+-Stun Bonus (status)
+-Stun Resist (status)
+-Sleep Bonus (status)
+-Sleep Resist (status)
+-Charm Bonus (status)
+-Charm Resist (status)
+-Curse Bonus (status)
+-Curse Resist (status)
+-Petrify Bonus (status)
+-Petrify Resist (status)
+-Chill Bonus (status)
+-Chill Resist (status)
+-Blind Bonus (status)
+-Blind Resist (status)
+-Silence Bonus (status)
+-Silence Resist (status)
+-Status Bonus (status)
+-Satus Resist (status)
+-Burning Bonus (status)
+-Burning Resist (status)
+-Confused Bonus (status)
+-Confused Resist (status)
+-Crit Chance
+-Crit Power
+-Crit Resist
+-Crit Evade
+-Speed
+-Heal Bonus
+-Health
+-Health Regen
+-Stamina
+-Stamina Regen
+
+Statuses
+	These work much like ones in DarkSouls, where moves apply some ammount of "status damage", and once
+	it passes your "resist threshold" then you get the status. The status threshold then lasts until some
+	outside force ends it, or until the "status threshold" drains back to 0 (the speed of which depends
+	on the your resist).
+	-Poison: Lose a lot of health each turn
+	-Stun: Cannot act until expires, drains quickly
+	-Sleep: Cannot act until expires, drains slowly, breaks on damage
+	-Charm: Help out the enemy, drains quickly
+	-Curse: All attributes reduced
+	-Petrify: Instant KO, builds slowly
+	-Chill: Speed greatly reduced, Ice Defense/Crit Bonus/Crit Evasion/Crit Power reduced next fire attack abosorbed and status gone
+	-Blind: Targeted moves fail, speed reduced
+	-Silence: Any move requiring sound (spells and sonic) fail
+	-Burning: Lose health every turn, cannot act, expires quickly, next water/ice attack absorbed and status gone
+	-Confused: High chance to act randomly
+	
+Attributes
+-Strength
+-Agility
+-Constitution
+-Intellect
+-Wisdom
+-Charisma
+-Adaptability
