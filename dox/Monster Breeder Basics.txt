@@ -65,7 +65,7 @@ Statuses
 	-Charm: Help out the enemy, drains quickly
 	-Curse: All attributes reduced
 	-Petrify: Instant KO, builds slowly
-	-Chill: Speed greatly reduced, Ice Defense/Crit Bonus/Crit Evasion/Crit Power reduced next fire attack abosorbed and status gone
+	-Chill: Speed greatly reduced, Ice Defense/Crit Bonus/Crit Evasion/Crit Power reduced, next fire attack abosorbed and status gone
 	-Blind: Targeted moves fail, speed reduced
 	-Silence: Any move requiring sound (spells and sonic) fail
 	-Burning: Lose health every turn, cannot act, expires quickly, next water/ice attack absorbed and status gone

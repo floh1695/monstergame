@@ -1,0 +1,23 @@
+"Ignore comments or this will suck"
+00
+	Name: Monster's Name
+	Menu Sprite: 00MonsterNameMS.jpg
+	Battle Sprite: 00MonsterNameBS.jpg
+	Overworld Sprite: 00MonsterNameOWS.jpg
+	Family: Family1 "Name of Family1" + Family2 "Name of Family2"
+	Ability: Ability1 "Name of Ability1"
+	Breeding Ability: Ability1 "Name of Ability1"
+	Base Attributes: [STR, AGI, CON, INT, WIS, CHA, ADP]
+	Base Moves: [1 "Name of 1", 2, "Name of 2", 3 "Name of 3", 4 "Name of 4"]
+	Tutor Moves: [1 "Name of 1", 2, "Name of 2",...]
+	Breeding Moves: [1 "Name of 1", 2, "Name of 2",...]
+	Base Natures: [N, E, O, A, C]
+	Experience Rate: 1-100 "Higher number takes more exp to level"
+	Description: Text description of monster
+	Classification: Text of what monster is
+	Capture Rate: 0-100 "Lower number is more difficult to capture"
+	Nickname: Displayed name, default DEFAULT_NAME displays monster name
+	Useable Moves: [1 "Name of 1", 2, "Name of 2",..., 6 "Name of 6"]
+	Useable Abilities: [1 "Name of 1", 2, "Name of 2", 3 "Name of 3", 4 "Name of 4"]
+	Inherited Attributes: [STR, AGI, CON, INT, WIS, CHA, ADP]
+	Personality: PERSONALITY_FXN "Displayed personality is created using natures"
