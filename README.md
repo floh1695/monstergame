@@ -47,3 +47,8 @@ a major force in ending this war that has gone on for so long.
 
 # *__Final Note__*
 Everything here is subject to change.
+
+###### *__Final Final Note__*
+
+The current engine I think we should use is Kivy.
+
