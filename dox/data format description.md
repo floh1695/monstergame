@@ -37,7 +37,14 @@ within a string token. Ex: `some_key: "# I'm not a comment" # I'm a comment`
 
 ### Potential Data Types
 
-* **Arrays**
+* **Arrays** -
+    `key[]: [1, 2, 3]`
+    or
+    ```
+    key[0]: 1
+    key[1]: 2
+    key[2]: 3
+    ```
 
 * **Stored Object Refrences**
 
