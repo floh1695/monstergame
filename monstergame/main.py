@@ -1,4 +1,6 @@
 #!/usr/bin/python2
 
+import pygame
+
 def main():
-    print 'Begin setup'
+    print pygame
