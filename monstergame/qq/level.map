@@ -1,0 +1,54 @@
+[level]
+tileset = ground.png
+map =   ###.###########
+        #.......#.#.#.#
+        #.>....#.#.h.##
+        #...@.......#.#
+        #......s...#.##
+        #..............
+        ##.#.#.#...#.##
+        #...........#.#
+        ##.#.#.#......#
+        ...........s..#
+        ##.##.###..b..#
+        #..##.###.bb#.#
+        ##.##.###....##
+        #.....###...#.#
+        ###############
+
+[#]
+name = wall
+wall = true
+block = true
+
+[.]
+name = floor
+tile = 0, 3
+
+[@]
+name = player
+tile = 0, 3
+player = true
+sprite = player.png
+
+[s]
+name = skeleton
+tile = 0, 3
+sprite = skeleton.png
+block = true
+
+[>]
+name = stairs
+tile = 3, 3
+
+[b]
+name = crate
+tile = 0, 3
+sprite = crate.png
+block = true
+
+[h]
+name = house
+tile = 0, 3
+sprite = house.png
+block = true
