@@ -14,7 +14,7 @@ let you move an animated player character around it.
 Note that a lot of additional work is needed to turn it into an actual game.
 
 @copyright: 2008, 2009 Radomir Dopieralski <qq@sheep.art.pl>
-@license: BSD, see COPYING for details
+@license: BSD, see LICENSE for details
 
 """
 
