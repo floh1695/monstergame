@@ -1,9 +1,6 @@
 import pygame
 from monstergame.qq.qq import SPRITE_CACHE
 
-__author__ = 'cbayley'
-
-
 class Shadow(pygame.sprite.Sprite):
     """Sprite for shadows."""
 

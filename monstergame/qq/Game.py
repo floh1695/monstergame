@@ -7,9 +7,6 @@ from monstergame.qq.SortedUpdates import SortedUpdates
 from monstergame.qq.Sprite import Sprite
 from monstergame.qq.qq import SPRITE_CACHE, DX, DY
 
-__author__ = 'cbayley'
-
-
 class Game(object):
     """The main game object."""
 

@@ -1,8 +1,5 @@
 import pygame
 
-__author__ = 'cbayley'
-
-
 class Sprite(pygame.sprite.Sprite):
     """Sprite for animated items and base class for Player."""
 

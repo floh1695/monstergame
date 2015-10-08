@@ -1,8 +1,5 @@
 import pygame
 
-__author__ = 'cbayley'
-
-
 class SortedUpdates(pygame.sprite.RenderUpdates):
     """A sprite group that sorts them by depth."""
 

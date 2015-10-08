@@ -2,9 +2,6 @@ import ConfigParser
 import pygame
 from monstergame.qq.qq import MAP_CACHE, MAP_TILE_WIDTH, MAP_TILE_HEIGHT
 
-__author__ = 'cbayley'
-
-
 class Level(object):
     """Load and store the map of the level, together with all the items."""
 

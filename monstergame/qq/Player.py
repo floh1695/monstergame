@@ -1,9 +1,6 @@
 from monstergame.qq.Sprite import Sprite
 from monstergame.qq.qq import SPRITE_CACHE, DX, DY
 
-__author__ = 'cbayley'
-
-
 class Player(Sprite):
     """ Display and animate the player character."""
 
