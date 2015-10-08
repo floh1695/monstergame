@@ -1,3 +1,5 @@
+#!/usr/bin/python2
+
 import pygame
 from monstergame.qq.qq import SPRITE_CACHE
 

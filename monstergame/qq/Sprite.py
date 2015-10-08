@@ -1,3 +1,5 @@
+#!/usr/bin/python2
+
 import pygame
 
 class Sprite(pygame.sprite.Sprite):

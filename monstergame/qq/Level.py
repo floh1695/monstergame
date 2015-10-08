@@ -1,3 +1,5 @@
+#!/usr/bin/python2
+
 import ConfigParser
 import pygame
 from monstergame.qq.qq import MAP_CACHE, MAP_TILE_WIDTH, MAP_TILE_HEIGHT

@@ -1,3 +1,5 @@
+#!/usr/bin/python2
+
 import pygame
 from pygame import locals as pg
 from monstergame.qq.Level import Level

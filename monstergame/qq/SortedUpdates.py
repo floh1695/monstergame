@@ -1,3 +1,5 @@
+#!/usr/bin/python2
+
 import pygame
 
 class SortedUpdates(pygame.sprite.RenderUpdates):

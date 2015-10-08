@@ -1,3 +1,5 @@
+#!/usr/bin/python2
+
 from monstergame.qq.Sprite import Sprite
 from monstergame.qq.qq import SPRITE_CACHE, DX, DY
 
