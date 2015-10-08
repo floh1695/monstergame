@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 
-from monstergame.qq.Sprite import Sprite
-from monstergame.qq.qq import SPRITE_CACHE, DX, DY
+from Sprite import Sprite
+from qq import SPRITE_CACHE, DX, DY
 
 class Player(Sprite):
     """ Display and animate the player character."""

@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 
 import pygame
-from monstergame.qq.qq import SPRITE_CACHE
+from qq import SPRITE_CACHE
 
 class Shadow(pygame.sprite.Sprite):
     """Sprite for shadows."""

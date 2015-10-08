@@ -20,8 +20,8 @@ Note that a lot of additional work is needed to turn it into an actual game.
 
 import pygame
 
-from monstergame.qq.Game import Game
-from monstergame.qq.TileCache import TileCache
+from Game import Game
+from TileCache import TileCache
 
 
 
