@@ -48,4 +48,4 @@ class Sprite(pygame.sprite.Sprite):
     def update(self, *args):
         """Run the current animation."""
 
-        self.animation.next()
+        self.animation.next(
