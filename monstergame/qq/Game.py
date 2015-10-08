@@ -7,7 +7,8 @@ from Player import Player
 from Shadow import Shadow
 from SortedUpdates import SortedUpdates
 from Sprite import Sprite
-from qq import SPRITE_CACHE, DX, DY
+from shared import DX, DY, SPRITE_CACHE
+
 
 class Game(object):
     """The main game object."""

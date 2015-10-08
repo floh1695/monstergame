@@ -2,7 +2,8 @@
 
 import ConfigParser
 import pygame
-from qq import MAP_CACHE, MAP_TILE_WIDTH, MAP_TILE_HEIGHT
+from shared import MAP_TILE_WIDTH, MAP_TILE_HEIGHT, MAP_CACHE
+
 
 class Level(object):
     """Load and store the map of the level, together with all the items."""

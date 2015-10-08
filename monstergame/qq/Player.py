@@ -1,7 +1,8 @@
 #!/usr/bin/python2
 
 from Sprite import Sprite
-from qq import SPRITE_CACHE, DX, DY
+from shared import DX, DY, SPRITE_CACHE
+
 
 class Player(Sprite):
     """ Display and animate the player character."""

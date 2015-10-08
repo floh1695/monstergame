@@ -21,22 +21,13 @@ Note that a lot of additional work is needed to turn it into an actual game.
 import pygame
 
 from Game import Game
-from TileCache import TileCache
-
-
 
 # Motion offsets for particular directions
-#     N  E  S   W
-DX = [0, 1, 0, -1]
-DY = [-1, 0, 1, 0]
+#      N  E  S   W
 
 # Dimensions of the map tiles
-MAP_TILE_WIDTH, MAP_TILE_HEIGHT = 24, 16
 
 if __name__ == "__main__":
-    SPRITE_CACHE = TileCache()
-    MAP_CACHE = TileCache(MAP_TILE_WIDTH, MAP_TILE_HEIGHT)
-    TILE_CACHE = TileCache(32, 32)
     pygame.init()
     pygame.display.set_mode((424, 320))
     Game().main()
