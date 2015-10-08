@@ -1,6 +1,7 @@
-from monstergame.qq.TileCache import TileCache
+#!/usr/bin/python2
 
-__author__ = 'cbayley'
+from TileCache import TileCache
+
 DX = [ 0, 1, 0, -1]
 DY = [-1, 0, 1,  0]
 MAP_TILE_WIDTH  = 24

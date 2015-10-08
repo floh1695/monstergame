@@ -1,5 +1,5 @@
 [level]
-tileset = ground.png
+tileset = dungeon.png
 map =   ###.###########
         #.......#.#.#.#
         #.>....#.#.h.##

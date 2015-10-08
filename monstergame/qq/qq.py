@@ -20,6 +20,7 @@ Note that a lot of additional work is needed to turn it into an actual game.
 
 import pygame
 
+from shared import MAP_TILE_HEIGHT, MAP_TILE_WIDTH
 from Game import Game
 
 # Motion offsets for particular directions
@@ -29,5 +30,5 @@ from Game import Game
 
 if __name__ == "__main__":
     pygame.init()
-    pygame.display.set_mode((424, 320))
+    pygame.display.set_mode((MAP_TILE_WIDTH * 15, MAP_TILE_HEIGHT * 15))
     Game().main()
