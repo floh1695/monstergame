@@ -24,7 +24,7 @@ class Player(Sprite):
             self.image = self.frames[self.direction][frame]
             yield None
             self.move(3*DX[self.direction], 2*DY[self.direction])
-            yield None
+            #yield None # Removed this to increase the players walk speed
             self.move(3*DX[self.direction], 2*DY[self.direction])
 
     def update(self, *args):
